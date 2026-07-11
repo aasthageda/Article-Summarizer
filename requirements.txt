@@ -1,0 +1,6 @@
+asposestorage==1.0.2
+datasets==5.0.0
+gradio==6.20.0
+peft==0.19.1
+torch==2.13.0
+transformers==5.13.0

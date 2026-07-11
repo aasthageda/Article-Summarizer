@@ -1,0 +1,44 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face cache
+.cache/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Training checkpoints
+training/outputs/
+
+# Gradio
+.gradio/
+frontend/.gradio/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+.vscode/
