@@ -2,7 +2,7 @@ from pathlib import Path
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from peft import PeftModel
 
-MODEL_NAME = "google/flan-t5-base"
+MODEL_NAME = "google/flan-t5-small"
 BASE_DIR = Path(__file__).resolve().parents[1]
 ADAPTER_PATH = BASE_DIR / "training" / "lora_adapter"
 
