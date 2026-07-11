@@ -15,3 +15,4 @@ model = PeftModel.from_pretrained(
     base_model,
     ADAPTER_PATH
 )
+model.eval()

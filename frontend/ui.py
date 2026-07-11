@@ -35,4 +35,3 @@ with gr.Blocks(title="Article Summarizer",theme=gr.themes.Soft()) as demo:
         outputs=[article, summary]
     )
 
-demo.launch()
