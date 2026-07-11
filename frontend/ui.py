@@ -6,7 +6,7 @@ with gr.Blocks(title="Article Summarizer",theme=gr.themes.Soft()) as demo:
     gr.Markdown("# Article Summarizer")
 
     gr.Markdown(
-        "Summarize long articles using **DistilBART (sshleifer/distilbart-cnn-12-6)**"
+        "Summarize long articles using **DistilBART (google/flan-t5)**"
     )
 
     with gr.Row():
