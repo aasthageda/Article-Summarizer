@@ -23,7 +23,7 @@ def preprocess(example):
     )
     summary_encoding = tokenizer(
         summary,
-        max_length=128,
+        max_length=256,
         truncation=True,
     )
     return {
