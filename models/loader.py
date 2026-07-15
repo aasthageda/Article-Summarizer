@@ -4,7 +4,8 @@ from peft import PeftModel
 
 MODEL_NAME = "google/flan-t5-small"
 BASE_DIR = Path(__file__).resolve().parents[1]
-ADAPTER_PATH = BASE_DIR / "training" / "lora_adapter"
+ADAPTER_PATH = str(BASE_DIR / "training" / "lora_adapter")
+
 
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
