@@ -26,7 +26,7 @@ Thumbs.db
 .DS_Store
 
 # Training checkpoints
-training/outputs/
+training/outputs
 
 # Gradio
 .gradio/
