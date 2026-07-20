@@ -11,7 +11,7 @@ from transformers import (
 
 ds = load_dataset("S3IC/cnn_dailymail")
 
-tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
+tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 
 def preprocess(example):
     article = "summarize: " + example["article"]
@@ -38,7 +38,7 @@ tokenized_dataset = ds.map(
 )
 
 model = AutoModelForSeq2SeqLM.from_pretrained(
-    "google/flan-t5-small"
+    "facebook/bart-large-cnn"
 )
 
 lora_config = LoraConfig(
