@@ -1,7 +1,10 @@
+torch==2.7.1
+transformers==4.53.2
+accelerate==1.8.1
+peft==0.16.0
+gradio==5.38.2
+datasets==4.0.0
+huggingface_hub==0.33.4
+sentencepiece
+safetensors
 asposestorage==1.0.2
-datasets==5.0.0
-gradio==6.20.0
-peft==0.19.1
-torch==2.13.0
-transformers==5.13.0
-accelerate==1.14.0
