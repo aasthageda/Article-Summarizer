@@ -74,7 +74,9 @@ python app.py
 
 ## Screenshots
 
-(Add screenshots after deployment.)
+<img width="1920" height="1080" alt="Screenshot 2026-07-24 092206" src="https://github.com/user-attachments/assets/198f828d-e9e4-46f4-9083-4f874e5a759c" />
+<img width="1920" height="1080" alt="Screenshot 2026-07-24 091815" src="https://github.com/user-attachments/assets/3d55406c-da7f-47ed-922a-3cd5321f4cd0" />
+
 
 ---
 
